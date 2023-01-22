@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "coins-cal"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-mx9qf1g5bwc0"
+s3_prefix = "coins-cal"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = []
